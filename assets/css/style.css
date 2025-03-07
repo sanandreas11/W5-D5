@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+/* fonts */
+body {
+  font-family: Roboto, sans-serif;
+}
+#curious {
+  font-family: Spectral, serif;
+}
+/* positioning nav*/
+nav {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+  position: sticky;
+}
+#subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul {
+  display: flex;
+}
+/* positioning trending */
+#trending-section {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 30em;
+}
+.one {
+  order: 1;
+}
+.five {
+  order: 2;
+}
+.two {
+  order: 3;
+}
+.four {
+  order: 4;
+}
+.three {
+  order: 5;
+}
+.six {
+  order: 6;
+}
+.top-trending {
+  display: flex;
+  margin: 0 3em 6em 3em;
+  margin-top: 0;
+}
+/* style */
+header {
+  background-color: #ffc017;
+}
+li {
+  margin: 1em 1em;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: white;
+  background-color: #191919;
+  border-radius: 20px;
+}
+h1 {
+  font-size: 5em;
+  margin-bottom: 0.2em;
+}
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 5em;
+}
+.get-started {
+  padding: 0.5em 1em;
+}
+.start-reading {
+  padding: 0.5em 3em;
+}
+#stay-curious {
+  margin-left: 4%;
+}
+/* style trending */
+.number {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #e6e7e6;
+  margin-right: 0.6em;
+}
