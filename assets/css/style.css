@@ -13,6 +13,8 @@ nav {
   justify-content: space-around;
   border-bottom: 1px solid black;
   position: sticky;
+  top: 0;
+  z-index: 100;
 }
 #subscribe {
   display: flex;
@@ -78,6 +80,15 @@ ul {
   margin-left: 0.4em;
 }
 /* positioning non trending */
+#MAIN {
+  display: flex;
+}
+.non-trending {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}
 .cards {
   display: flex;
   margin: 2em 0 2em 2.7em;
@@ -85,6 +96,14 @@ ul {
 .bottom-non-trend {
   display: flex;
   justify-content: space-between;
+}
+/* positioning aside */
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f2f3f3;
+  color: #7a716f;
+  width: 20%;
 }
 /* style */
 header {
@@ -134,8 +153,18 @@ b {
 .read {
   color: #6c6e71;
 }
+.read.none {
+  background-color: white;
+}
 .category {
   background-color: #f2f3f3;
   color: #7a716f;
   padding: 0.2em 0.3em;
+}
+button {
+  border: 1px solid #f2f3f3;
+  background-color: white;
+  color: #7a716f;
+  padding: 0.2em 1em;
+  margin: 0.2em 1em;
 }
