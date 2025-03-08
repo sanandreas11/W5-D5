@@ -42,6 +42,12 @@ ul {
 .one {
   order: 1;
 }
+.circle {
+  border-radius: 20px;
+}
+.rounded {
+  border-radius: 10px;
+}
 .five {
   order: 4;
 }
@@ -70,6 +76,15 @@ ul {
   align-items: center;
   font-weight: 500;
   margin-left: 0.4em;
+}
+/* positioning non trending */
+.cards {
+  display: flex;
+  margin: 2em 0 2em 2.7em;
+}
+.bottom-non-trend {
+  display: flex;
+  justify-content: space-between;
 }
 /* style */
 header {
@@ -118,4 +133,9 @@ b {
 }
 .read {
   color: #6c6e71;
+}
+.category {
+  background-color: #f2f3f3;
+  color: #7a716f;
+  padding: 0.2em 0.3em;
 }
